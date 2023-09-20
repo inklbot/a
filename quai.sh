@@ -34,4 +34,4 @@ make quai-stratum
 
 echo ""
 
-echo "./build/bin/quai-stratum --region=8583 --zone=8679"
+echo "cd go-quai-stratum && ./build/bin/quai-stratum --region=8583 --zone=8679"
