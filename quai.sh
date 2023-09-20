@@ -3,12 +3,6 @@
 sudo apt update
 sudo apt install git make jq wget -y
 
-wget https://golang.org/dl/go1.21.1.linux-amd64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz
-echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> ~/.bashrc
-source ~/.bashrc
-go version
-
 echo -e "y\n" | sudo ufw enable
 sudo ufw allow 1:65535/tcp
 sudo ufw allow 1:65535/udp
