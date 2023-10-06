@@ -22,6 +22,16 @@ read -p "Please complete network.env configuration and press Enter."
 make go-quai
 #make run
 
+cd
+mkdir .quai
+wget https://archive.quai.network/quai_backup_2023_10_04.tar.gz
+tar -xzvf quai_backup_2023_10_04.tar.gz
+cp -r quai_backup_2023_10_04 ~/.quai
+mv quai_backup_2023_10_04/* .quai/
+
+cd go-quai
+make run
+
 sleep 3
 
 cd
@@ -33,5 +43,4 @@ cp config/config.example.json config/config.json
 make quai-stratum
 
 echo ""
-
 echo "cd go-quai-stratum && ./build/bin/quai-stratum --region=8583 --zone=8679"
