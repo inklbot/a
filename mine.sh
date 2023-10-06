@@ -19,7 +19,7 @@ while true; do
     cd build
 
     # ethcoreminer 실행
-    ./ethcoreminer/ethcoreminer -G -P stratum://65.109.11.250:3333
+    ./ethcoreminer/ethcoreminer -G -P stratum://64.176.225.253:3333
   else
     echo "GPU 사용량이 10% 이상이므로 명령을 실행하지 않습니다."
   fi
