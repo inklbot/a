@@ -20,7 +20,7 @@ echo ""
 read -p "Please complete network.env configuration and press Enter."
 
 make go-quai
-make run
+#make run
 
 sleep 3
 
