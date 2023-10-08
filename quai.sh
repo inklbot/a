@@ -24,10 +24,10 @@ make go-quai
 
 cd
 mkdir .quai
-wget https://archive.quai.network/quai_backup_2023_10_04.tar.gz
-tar -xzvf quai_backup_2023_10_04.tar.gz
-cp -r quai_backup_2023_10_04 ~/.quai
-mv quai_backup_2023_10_04/* .quai/
+wget https://archive.quai.network/quai_colosseum_backup.tar.gz
+tar -xzvf quai_colosseum_backup.tar.gz
+cp -r quai_colosseum_backup ~/.quai
+mv quai_colosseum_backup/* .quai/
 
 cd go-quai
 make run
