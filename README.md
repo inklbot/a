@@ -37,4 +37,7 @@ cargo install --path .
 
 ```
 leo example tictactoe
+cd tictactoe
+leo run new
 ```
+![image](https://github.com/inklbot/a/assets/31788091/28d57f36-6ef5-45e4-b172-47c16b066f05)
