@@ -48,4 +48,5 @@ leo example lottery
 cd lottery
 leo run play
 ```
-![Uploading image.png…]()
+![image](https://github.com/inklbot/a/assets/31788091/9411ad4c-91e7-4c2d-bc48-db2eb0a043a9)
+
