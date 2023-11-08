@@ -1,8 +1,8 @@
 # Leo Developer Toolkit Example
 
 #### 준비물
-Ubuntu 22.04
-2 CPU
+Ubuntu 22.04<br>
+2 CPU<br>
 2GB RAM
 
 #### 필요 패키지 및 Leo 설치
