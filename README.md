@@ -25,3 +25,8 @@ cargo install --path .
 ![image](https://github.com/inklbot/a/assets/31788091/bfaa0e6e-76bf-4294-8389-155c6150fc10)
 <br>
 기본값 1로 설치 진행<br>
+
+#### Leo 설치
+![image](https://github.com/inklbot/a/assets/31788091/87f504e3-f3a6-427f-9352-2ddf08c3d39a)
+<br> 설치중
+
