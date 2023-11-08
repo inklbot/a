@@ -28,6 +28,6 @@ cargo install --path .
 
 #### Leo 설치
 ![image](https://github.com/inklbot/a/assets/31788091/87f504e3-f3a6-427f-9352-2ddf08c3d39a)
-<br> 설치중<br><br>
+<br>
 ![image](https://github.com/inklbot/a/assets/31788091/f867e05a-3d9d-4ac7-a10d-cad7992be2ae)
 <br> 설치 완료
