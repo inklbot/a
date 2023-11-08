@@ -32,7 +32,7 @@ cargo install --path .
 ![image](https://github.com/inklbot/a/assets/31788091/f867e05a-3d9d-4ac7-a10d-cad7992be2ae)
 <br> 설치 완료
 
-## Leo 기본 예제를 사용하여 Tic Tac Toe 실행하기
+### Leo 기본 예제를 사용하여 Tic Tac Toe 실행하기
 ![image](https://github.com/inklbot/a/assets/31788091/79e5d3a3-ae50-4041-bd72-7943afb5daeb)
 
 ```
@@ -41,3 +41,11 @@ cd tictactoe
 leo run new
 ```
 ![image](https://github.com/inklbot/a/assets/31788091/28d57f36-6ef5-45e4-b172-47c16b066f05)
+
+### Leo 기본 예제를 사용하여 Lottery 실행하기
+```
+leo example lottery
+cd lottery
+leo run play
+```
+![Uploading image.png…]()
