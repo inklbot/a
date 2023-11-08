@@ -5,7 +5,7 @@ Ubuntu 22.04<br>
 2 CPU<br>
 2GB RAM
 
-## 필요 패키지 및 Leo 설치
+## 필수 패키지 및 Leo 설치
 ```
 #기본 패키지 설치
 sudo apt update
