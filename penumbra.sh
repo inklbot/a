@@ -24,7 +24,7 @@ git clone https://github.com/penumbra-zone/penumbra
 cd penumbra && git fetch && git checkout $LATEST_RELEASE
 cargo build --release --bin pcli
 
-sudo apt install cargo
+sudo apt install cargo -y
 source $HOME/.cargo/env
 
 echo "done."
