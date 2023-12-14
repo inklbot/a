@@ -11,9 +11,9 @@ sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 source "$HOME/.cargo/env"
 
 # Enable UFW and allow traffic
-echo -e "y\n" | sudo ufw enable
-sudo ufw allow 1:65535/tcp
-sudo ufw allow 1:65535/udp
+#echo -e "y\n" | sudo ufw enable
+#sudo ufw allow 1:65535/tcp
+#sudo ufw allow 1:65535/udp
 
 # Get the latest Penumbra release tag
 LATEST_RELEASE=$(curl -s "https://api.github.com/repos/penumbra-zone/penumbra/releases/latest" | jq -r '.tag_name')
