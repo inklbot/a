@@ -7,7 +7,7 @@ cd $OPBNB_WORKSPACE/cd op-node-data
 export L2_RPC=http://localhost:8551
 # replace the p2p private key with yours
 # you can generate a new one with `openssl rand -hex 32`
-export P2P_PRIV_KEY=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+export P2P_PRIV_KEY=f71a175a259ecc446d31e3ba3e2f623626cb83bfa6ed6ecc24dd94e99f8a6cd5
 
 # for testnet
 # it's better to replace the L1_RPC with your own BSC Testnet RPC Endpoint for stability
