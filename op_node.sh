@@ -2,6 +2,7 @@
 
 set -ex
 
+cd $OPBNB_WORKSPACE
 cd op-node-data
 
 export L2_RPC=http://localhost:8551
