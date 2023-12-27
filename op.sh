@@ -8,5 +8,6 @@ sudo apt-get install -y git
 sudo apt-get install -y gcc
 sudo apt-get install -y libc-dev
 sudo apt-get install -y openssl
+sudo apt-get install -y build-essential
 
 echo "Done."
